@@ -1,0 +1,5 @@
+use_case_id,title,domain,problem,target_group,monthly_cases,minutes_saved_per_case,automation_share,impact_score,data_readiness_score,feasibility_score,risk_score,human_review,data_sensitivity,dependencies
+UC-001,Service request routing,Public services,Requests arrive through several channels and are manually assigned,Service operations team,1200,4,0.45,4,4,4,2,yes,medium,Consistent request categories and a documented escalation path
+UC-002,Appointment reminder prioritization,Public services,Staff cannot easily identify appointments with a high no-show likelihood,Appointment coordinators,850,3,0.30,3,3,3,3,yes,medium,Historical attendance data and a human-approved contact policy
+UC-003,Knowledge article discovery,Customer operations,Staff spend time searching a large internal knowledge base,Support staff,2400,2,0.55,4,3,4,3,yes,high,Permission-aware search index and current source articles
+UC-004,Duplicate case detection,Service operations,Similar cases are opened repeatedly across teams,Case managers,600,5,0.35,3,2,3,4,yes,high,Stable identifiers and a review queue for possible matches

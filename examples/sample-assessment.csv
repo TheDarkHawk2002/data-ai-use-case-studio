@@ -1,0 +1,5 @@
+﻿rank,use_case_id,title,domain,priority_score,recommendation,review_level,annual_hours_estimate,impact_score,data_readiness_score,feasibility_score,risk_score,human_review,dependencies
+1,UC-001,Service request routing,Public services,80.0,Prioritize discovery,Review safeguards,432.0,4,4,4,2,True,Consistent request categories and a documented escalation path
+2,UC-003,Knowledge article discovery,Customer operations,71.0,Validate with a small pilot,High review need,528.0,4,3,4,3,True,Permission-aware search index and current source articles
+3,UC-002,Appointment reminder prioritization,Public services,60.0,Explore after key dependencies,Review safeguards,153.0,3,3,3,3,True,Historical attendance data and a human-approved contact policy
+4,UC-004,Duplicate case detection,Service operations,51.0,Explore after key dependencies,High review need,210.0,3,2,3,4,True,Stable identifiers and a review queue for possible matches

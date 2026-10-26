@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "data-ai-use-case-studio"
+version = "1.0.0"
+description = "A transparent CLI for screening and communicating data and AI opportunities."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+authors = [{ name = "Okan Yakin" }]
+dependencies = []
+
+[project.scripts]
+usecase-studio = "use_case_studio.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

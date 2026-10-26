@@ -60,4 +60,3 @@ src/use_case_studio/  validation, assessment, reporting, CLI
 ## License
 
 MIT. See `LICENSE`.
-
